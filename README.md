@@ -1,7 +1,7 @@
 # Jenkins CI/CD Pipeline Task
 
 ## What I Did
-- Created a Node.js app (`app.js`)
+- Created a app (`app.py`)
 - Wrote a `Dockerfile` to containerize the app
 - Wrote a `Jenkinsfile` to automate build, test, and deploy
 - Connected it with Jenkins for CI/CD
