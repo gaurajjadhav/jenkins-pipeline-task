@@ -1,12 +1,30 @@
 # Jenkins CI/CD Pipeline Task
+# Jenkins Pipeline Task
 
-## What I Did
-- Created a app (`app.py`)
-- Wrote a `Dockerfile` to containerize the app
-- Wrote a `Jenkinsfile` to automate build, test, and deploy
-- Connected it with Jenkins for CI/CD
+This project demonstrates a **basic Jenkins CI/CD pipeline** to automate the build, test, and deployment stages of a simple Flask web application.
 
-## How to Run
-1. Clone the repo
-2. Open Jenkins
-3. Create a Pipeline job and link it to this repo
+## 🔧 Tools Used
+- Jenkins
+- Docker (optional)
+- Python + Flask
+
+## 🚀 Project Overview
+- A `Jenkinsfile` is used to define the pipeline stages:
+  - **Build**: Simulate build process.
+  - **Test**: Simulate testing process.
+  - **Deploy**: Runs the Flask app.
+
+## 🌐 App Info
+The Flask app (`app.py`) runs on:
+
+**URL:** `http://localhost:9090/`
+
+Make sure port `9090` is free before running the app.
+
+## 🖥️ Run Locally
+If running manually:
+
+```bash
+pip install flask
+python app.py
+
