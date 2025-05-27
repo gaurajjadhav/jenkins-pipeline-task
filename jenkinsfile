@@ -1,0 +1,29 @@
+
+
+// Jenkinsfile
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building the application...'
+                sh 'docker build -t my-simple-app .'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+                // Add test steps here if you have any
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying application...'
+                sh 'docker run -d --name simple-app -p 3000:3000 my-simple-app'
+            }
+        }
+    }
+}
