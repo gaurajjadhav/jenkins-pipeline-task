@@ -1,5 +1,4 @@
 # Jenkins CI/CD Pipeline Task
-# Jenkins Pipeline Task
 
 This project demonstrates a **basic Jenkins CI/CD pipeline** to automate the build, test, and deployment stages of a simple Flask web application.
 
@@ -20,6 +19,8 @@ The Flask app (`app.py`) runs on:
 **URL:** `http://localhost:9090/`
 
 Make sure port `9090` is free before running the app.
+##  Expected Output
+'Hello I'm Gauraj from Jenkins CI/CD with Docker!'
 
 ## 🖥️ Run Locally
 If running manually:
