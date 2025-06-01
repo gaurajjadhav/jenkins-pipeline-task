@@ -28,7 +28,7 @@ Make sure port `9090` is free before running the app.
 'Hello I'm Gauraj from Jenkins CI/CD with Docker!'
 
 
-## 🖥 Run Locally
+##  Run Locally
 If running manually:
 
 ```bash
